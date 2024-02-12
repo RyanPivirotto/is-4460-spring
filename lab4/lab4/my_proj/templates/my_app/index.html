@@ -1,5 +1,23 @@
 <html>
 <body>
     {{ hi }}
+<br>
+    {{ name }}
+<br>
+<br>
+   {% for name in theName %}
+      <li>{{name}} </li>
+   {% endfor %}
+
+  <p> The second name is {{ name.1 }}
+  </p>
+  Below is the vehicle information
+  <p>
+    The color of car 1 is {{ car1.color }} makes sound: {{ car1.sound }} and has wheels:{{car1.wheels}}
+    <br>
+    Car 2 color: {{ car2.color}} makes sound {{ car2.sound  }} and has wheels: {{car2.wheels}}
+    <br>
+    Motorcycle make: {{motorcycle.make}} year: {{motorcycle.year}} and has wheels:{{motorcycle.wheels}}
+  </p>
 </body>
 </html>
