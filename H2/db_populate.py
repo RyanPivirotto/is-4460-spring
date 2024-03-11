@@ -1,5 +1,4 @@
 # db_populate.py
-
 import os
 import django
 
